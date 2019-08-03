@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "firstName": "Captain",
+    "lastName": "America",
+    "image": "captain_america.jpeg",
+    "DOB": "1920-07-04",
+    "contact": "9999999999"
+  },
+  {
+    "id": "2",
+    "firstName": "Iron",
+    "lastName": "Man",
+    "image": "iron_man.jpeg",
+    "DOB": "1965-04-04",
+    "contact": "9999999999"
+  },
+  {
+    "id": "3",
+    "firstName": "Nick",
+    "lastName": "Fury",
+    "image": "nick_fury.jpg",
+    "DOB": "1968-10-08",
+    "contact": "9999999999"
+  }
+]

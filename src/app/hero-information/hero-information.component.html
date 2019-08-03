@@ -1,0 +1,20 @@
+<div class="header">
+  <h4 class="back-to-list" routerLink="/" routerLinkActive="active">
+    <i class="fa fa-arrow-left"></i> Heroes List
+  </h4>
+</div>
+<div class="heroes-information" *ngIf="hero">
+
+  <div class="row">
+    <div class="col-md-8">
+      <img class="hero_img" [src]=" '../assets/images/' + hero.image "/>
+    </div>
+    
+    <div class="col-md-4">
+      <h2> {{hero.firstName}} {{hero.lastName}}</h2>
+      <h4> {{hero.dateOfBirth}}</h4>
+      <h4> {{hero.contact | number}}</h4>
+    </div>
+  </div>
+
+</div>
